@@ -1,9 +1,8 @@
 import * as React from "react";
 
-import { Posts } from "../../components/Posts/Posts";
 import { Header } from "../../components/Header/Header";
 
-import { WrapperMainContent, Wrapper, Text } from "./SettingsPage";
+import { WrapperMainContent, Wrapper, Text } from "./SettingsPage.styled";
 
 export function SettingsPage() {
   return (

@@ -9,29 +9,32 @@ import {
 import { SideNavLink } from "./header.styled";
 import { AppRoute } from "./../../enums/router";
 import logo from "./../../icons/logo.svg";
-import { SvgSelector } from "./SvgSelector";
+import { Link } from "react-router-dom";
+import { UserIcon } from "./UserIcon";
+import { BasketIcon } from "./BasketIcon";
+import { LikeIcon } from "./LikeIcon";
 
 export function Header() {
   return (
     <HeaderArrow>
       <HeaderContainer>
         <LogoWrapper>
-          <a href="/">
+          <Link to="/">
             <img src={logo} alt="Logo" />
-          </a>
+          </Link>
         </LogoWrapper>
         <SearchBar>
           <input type="search" placeholder="Search..." />
         </SearchBar>
         <WrapperButtons>
           <SideNavLink to={AppRoute.Favorites}>
-            <SvgSelector id="like" />
+            <BasketIcon />
           </SideNavLink>
           <SideNavLink to={AppRoute.Basket}>
-            <SvgSelector id="basket" />
+            <LikeIcon />
           </SideNavLink>
           <SideNavLink to={AppRoute.Login}>
-            <SvgSelector id="user" />
+            <UserIcon />
           </SideNavLink>
         </WrapperButtons>
       </HeaderContainer>

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 export const Wrapper = styled.div`
   width: 40%;
-  margin: 3rem auto;
+  margin: 3rem auto 7rem;
 `;
 export const WrapperNav = styled.div`
   display: flex;

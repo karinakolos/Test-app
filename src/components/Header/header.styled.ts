@@ -45,13 +45,13 @@ export const WrapperButtons = styled.div`
   gap: 2rem;
 `;
 export const SideNavLink = styled(NavLink)`
+  transition: all 0.8s ease-in;
   svg {
-    width: 1rem;
-    height: 1rem;
-    transition: all 0.8s ease-in;
+    width: 1.5rem;
+    height: 1.5rem;
+
     &:hover:not(.active) {
       fill: #881ae6;
-      opacity: 0.6;
     }
     &.active {
       fill: #881ae6;

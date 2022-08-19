@@ -7,6 +7,7 @@ import { SideNavLink } from "./LoginPage.styled";
 import { AppRoute } from "./../../enums/router";
 
 import { Wrapper, WrapperNav } from "./LoginPage.styled";
+import { Foooter } from "../../components/Footer/Footer";
 
 export function LoginPage() {
   return (
@@ -25,6 +26,7 @@ export function LoginPage() {
         <Input label="Password" placecholder="Your password" type="password" />
         <ButtonReg title="sign in" />
       </Wrapper>
+      <Foooter />
     </div>
   );
 }

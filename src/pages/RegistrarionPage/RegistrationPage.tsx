@@ -7,6 +7,7 @@ import { SideNavLink } from "./RegistrationPage.styled";
 import { AppRoute } from "./../../enums/router";
 
 import { Wrapper, WrapperNav } from "./RegistrationPage.styled";
+import { Foooter } from "../../components/Footer/Footer";
 
 export function RegistrationPage() {
   return (
@@ -31,6 +32,7 @@ export function RegistrationPage() {
         />
         <ButtonReg title="sign in" />
       </Wrapper>
+      <Foooter />
     </div>
   );
 }

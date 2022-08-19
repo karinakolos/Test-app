@@ -1,9 +1,9 @@
 export enum AppRoute {
   Main = "/",
+  BookPage = "/book/:bookId",
   Basket = "/basket",
   Login = "/sign_in",
   Reg = "/sing_up",
-  Trends = "/trends",
   Favorites = "/favorites",
   Settings = "/settings",
   Posts = "/posts",

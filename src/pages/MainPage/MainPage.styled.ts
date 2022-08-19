@@ -10,3 +10,8 @@ export const Title = styled.p`
   padding: 0 0 2.5rem;
   color: #313037;
 `;
+export const PostsContainer = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+`;

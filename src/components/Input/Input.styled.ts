@@ -16,6 +16,7 @@ export const StyledInput = styled.input`
   height: 2.5rem;
   padding: 0 1rem;
   border: 1px solid #e7e7e7;
+  outline: none;
 `;
 
 export const InputError = styled.div`

@@ -8,9 +8,9 @@ import {
   Wrapper,
   Title,
   PostsContainer,
+  StyledLink,
 } from "./MainPage.styled";
 import { Foooter } from "../../components/Footer/Footer";
-import { Link } from "react-router-dom";
 
 export function MainPage() {
   let books = FetchBooks();
@@ -22,9 +22,9 @@ export function MainPage() {
         <PostsContainer>
           {books.map((el: any) => {
             return (
-              <Link key={el.isbn13} to={`/book/${el.isbn13}`}>
-                <PostCard book={el} />;
-              </Link>
+              <StyledLink key={el.isbn13} to={`/book/${el.isbn13}`}>
+                <PostCard book={el} />
+              </StyledLink>
             );
           })}
         </PostsContainer>

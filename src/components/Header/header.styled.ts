@@ -50,11 +50,11 @@ export const SideNavLink = styled(NavLink)`
     width: 1.5rem;
     height: 1.5rem;
 
-    &:hover:not(.active) {
-      fill: #881ae6;
+    &:hover:not(.active) path {
+      stroke: #781a2b;
     }
-    &.active {
-      fill: #881ae6;
+    &.active path {
+      stroke: #781a2b;
     }
   }
 `;

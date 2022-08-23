@@ -5,6 +5,7 @@ export const PostWrapper = styled.div`
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
+  height: 100%;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
   padding: 0 1rem 1rem;
@@ -64,10 +65,12 @@ export const ButtonBasket = styled.button`
     height: 1.45rem;
     transition: all 0.2s ease-in;
     &:hover {
-      fill: #881ae6;
+      fill: #781a2b;
+      transform: scale(1.15);
     }
     &:active {
-      fill: #881ae6;
+      fill: #781a2b;
+      transform: scale(1.15);
     }
   }
 `;

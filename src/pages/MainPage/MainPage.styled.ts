@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { Link } from "react-router-dom";
 
 export const WrapperMainContent = styled.div``;
 export const Wrapper = styled.div``;
@@ -14,4 +15,10 @@ export const PostsContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2rem;
+`;
+export const StyledLink = styled(Link)`
+  text-decoration: none;
+  a {
+    text-decoration: none;
+  }
 `;

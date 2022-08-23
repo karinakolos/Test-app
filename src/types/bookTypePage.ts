@@ -7,6 +7,7 @@ export interface bookTypePage {
   isbn10: string;
   isbn13: string;
   pages: string;
+  price: string;
   year: string;
   rating: string;
   desc: string;

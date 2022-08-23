@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 
 export const WrapperFooter = styled.div`
   position: relative;
+  width: 100%;
   bottom: 0;
   display: block;
   :before {
